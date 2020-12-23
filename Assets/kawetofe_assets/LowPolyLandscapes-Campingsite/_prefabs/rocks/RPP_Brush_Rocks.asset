@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab40fa445ff22fc479be407303fecb08, type: 3}
+  m_Name: RPP_Brush_Rocks
+  m_EditorClassIdentifier: 
+  prefabs:
+  - prefab: {fileID: 4027620619009088, guid: d9e58654a4b39a44ebea0862da9bcc66, type: 2}
+    possibility: 0.3
+    scaleMin: 0.5
+    scaleMax: 2.5
+    lockedRotations: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 4109198113352748, guid: e27ada920914c8749a1842822c5271b0, type: 2}
+    possibility: 0.3
+    scaleMin: 0.5
+    scaleMax: 2.5
+    lockedRotations: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 4142641623697050, guid: aa0474f237948ef4089b6798f346206a, type: 2}
+    possibility: 0.3
+    scaleMin: 0.5
+    scaleMax: 2.5
+    lockedRotations: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 4987742710757176, guid: 4f8f6a7e0d7c6b347a853a12ea0d39ed, type: 2}
+    possibility: 0.3
+    scaleMin: 0.5
+    scaleMax: 2.5
+    lockedRotations: {x: 0, y: 0, z: 0}
+  objectsToPlace: 10

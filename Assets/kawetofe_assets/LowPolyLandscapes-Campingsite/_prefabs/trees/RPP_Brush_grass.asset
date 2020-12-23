@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab40fa445ff22fc479be407303fecb08, type: 3}
+  m_Name: RPP_Brush_grass
+  m_EditorClassIdentifier: 
+  prefabs:
+  - prefab: {fileID: 4051743846433508, guid: 4d3f596166e72d847bd4b59752bf46f6, type: 2}
+    possibility: 0.3
+    scaleMin: 0.6
+    scaleMax: 1.2
+    lockedRotations: {x: 1, y: 0, z: 1}
+  objectsToPlace: 10

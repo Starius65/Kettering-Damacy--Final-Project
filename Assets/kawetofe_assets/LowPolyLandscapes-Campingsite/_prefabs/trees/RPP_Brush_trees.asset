@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab40fa445ff22fc479be407303fecb08, type: 3}
+  m_Name: RPP_Brush_trees
+  m_EditorClassIdentifier: 
+  prefabs:
+  - prefab: {fileID: 4006499107299766, guid: ba47a5953b76ead42aa939ef165c6452, type: 2}
+    possibility: 0.3
+    scaleMin: 0.7
+    scaleMax: 1.5
+    lockedRotations: {x: 1, y: 0, z: 1}
+  - prefab: {fileID: 4025154572937464, guid: 60eb4c4044df4fd4788b3a65fcc61208, type: 2}
+    possibility: 0.3
+    scaleMin: 0.7
+    scaleMax: 1.5
+    lockedRotations: {x: 1, y: 0, z: 1}
+  - prefab: {fileID: 4876389276861966, guid: 7c3ed3984da83874aa9fcab185b3a378, type: 2}
+    possibility: 0.3
+    scaleMin: 0.7
+    scaleMax: 1.5
+    lockedRotations: {x: 1, y: 0, z: 1}
+  - prefab: {fileID: 4817413195586404, guid: 4d54bfb0ed4c90f4c88efe2981b45ee6, type: 2}
+    possibility: 0.1
+    scaleMin: 0.9
+    scaleMax: 1.2
+    lockedRotations: {x: 1, y: 0, z: 1}
+  objectsToPlace: 10
